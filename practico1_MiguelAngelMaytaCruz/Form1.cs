@@ -89,12 +89,14 @@ namespace practico1_MiguelAngelMaytaCruz
             panelCorrespondiente.Visible = true;
 
 
-            if (controles.Length > 0 && controles[0] is Panel)
-            {
-                Panel panelCorrespondiente = (Panel)controles[0];
-                panelCorrespondiente.Visible = true;
-            }
+            //if (controles.Length > 0 && controles[0] is Panel)
+            //{
+            //    Panel panelCorrespondiente = (Panel)controles[0];
+            //    panelCorrespondiente.Visible = true;
+            //}
   
+
+
 
 
         }
