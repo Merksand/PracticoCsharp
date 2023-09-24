@@ -35,11 +35,11 @@
             this.txtLetra = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtCadena = new System.Windows.Forms.TextBox();
-            this.btnClick2 = new System.Windows.Forms.Button();
-            this.lblResultado2 = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtCadena2 = new System.Windows.Forms.TextBox();
+            this.btnClick15 = new System.Windows.Forms.Button();
+            this.lbl15 = new System.Windows.Forms.Label();
+            this.lblA15 = new System.Windows.Forms.Label();
+            this.txtCadena15 = new System.Windows.Forms.TextBox();
+            this.lblResultado15 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -113,63 +113,63 @@
             this.txtCadena.TabIndex = 1;
             this.txtCadena.TextChanged += new System.EventHandler(this.txbInput_TextChanged);
             // 
-            // btnClick2
+            // btnClick15
             // 
-            this.btnClick2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btnClick2.Location = new System.Drawing.Point(181, 324);
-            this.btnClick2.Name = "btnClick2";
-            this.btnClick2.Size = new System.Drawing.Size(74, 40);
-            this.btnClick2.TabIndex = 17;
-            this.btnClick2.Text = "Click";
-            this.btnClick2.UseVisualStyleBackColor = true;
+            this.btnClick15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.btnClick15.Location = new System.Drawing.Point(133, 369);
+            this.btnClick15.Name = "btnClick15";
+            this.btnClick15.Size = new System.Drawing.Size(74, 40);
+            this.btnClick15.TabIndex = 78;
+            this.btnClick15.Text = "Click";
+            this.btnClick15.UseVisualStyleBackColor = true;
             // 
-            // lblResultado2
+            // lbl15
             // 
-            this.lblResultado2.AutoSize = true;
-            this.lblResultado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado2.Location = new System.Drawing.Point(255, 296);
-            this.lblResultado2.Name = "lblResultado2";
-            this.lblResultado2.Size = new System.Drawing.Size(0, 20);
-            this.lblResultado2.TabIndex = 16;
+            this.lbl15.AutoSize = true;
+            this.lbl15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl15.Location = new System.Drawing.Point(123, 299);
+            this.lbl15.Name = "lbl15";
+            this.lbl15.Size = new System.Drawing.Size(155, 20);
+            this.lbl15.TabIndex = 76;
+            this.lbl15.Text = "Ingrese una cadena:";
             // 
-            // lbl1
+            // lblA15
             // 
-            this.lbl1.AutoSize = true;
-            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(184, 236);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(155, 20);
-            this.lbl1.TabIndex = 15;
-            this.lbl1.Text = "Ingrese una cadena:";
+            this.lblA15.AutoSize = true;
+            this.lblA15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA15.Location = new System.Drawing.Point(315, 229);
+            this.lblA15.Name = "lblA15";
+            this.lblA15.Size = new System.Drawing.Size(129, 20);
+            this.lblA15.TabIndex = 74;
+            this.lblA15.Text = "EJERCICIO 15";
             // 
-            // label6
+            // txtCadena15
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(376, 166);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(119, 20);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "EJERCICIO 2";
+            this.txtCadena15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCadena15.Location = new System.Drawing.Point(303, 298);
+            this.txtCadena15.Name = "txtCadena15";
+            this.txtCadena15.Size = new System.Drawing.Size(156, 26);
+            this.txtCadena15.TabIndex = 75;
             // 
-            // txtCadena2
+            // lblResultado15
             // 
-            this.txtCadena2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCadena2.Location = new System.Drawing.Point(364, 235);
-            this.txtCadena2.Name = "txtCadena2";
-            this.txtCadena2.Size = new System.Drawing.Size(156, 26);
-            this.txtCadena2.TabIndex = 14;
+            this.lblResultado15.AutoSize = true;
+            this.lblResultado15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado15.Location = new System.Drawing.Point(199, 339);
+            this.lblResultado15.Name = "lblResultado15";
+            this.lblResultado15.Size = new System.Drawing.Size(0, 20);
+            this.lblResultado15.TabIndex = 77;
             // 
             // Ejercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(701, 530);
-            this.Controls.Add(this.btnClick2);
-            this.Controls.Add(this.lblResultado2);
-            this.Controls.Add(this.lbl1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtCadena2);
+            this.Controls.Add(this.btnClick15);
+            this.Controls.Add(this.lbl15);
+            this.Controls.Add(this.lblA15);
+            this.Controls.Add(this.txtCadena15);
+            this.Controls.Add(this.lblResultado15);
             this.Controls.Add(this.btnClick);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
@@ -194,10 +194,10 @@
         private System.Windows.Forms.TextBox txtLetra;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtCadena;
-        private System.Windows.Forms.Button btnClick2;
-        private System.Windows.Forms.Label lblResultado2;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtCadena2;
+        private System.Windows.Forms.Button btnClick15;
+        private System.Windows.Forms.Label lbl15;
+        private System.Windows.Forms.Label lblA15;
+        private System.Windows.Forms.TextBox txtCadena15;
+        private System.Windows.Forms.Label lblResultado15;
     }
 }

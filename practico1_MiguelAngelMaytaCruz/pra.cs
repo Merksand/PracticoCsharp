@@ -29,7 +29,29 @@ namespace practico1_MiguelAngelMaytaCruz
 
         private void click2(object sender, EventArgs e)
         {
-            panel1.Visible = true;
+
+            Button presionado = (Button)sender;
+            String numBoton = presionado.Text.Substring(10);
+            string nombrePanel = "panel" + numBoton;
+            lblFuera.Text = nombrePanel;
+
+            foreach (Control control in Controls)
+            {
+                if (control is Panel panel)
+                {
+                    panel.Visible = control.Name == nombrePanel;
+                }
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnClick3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
