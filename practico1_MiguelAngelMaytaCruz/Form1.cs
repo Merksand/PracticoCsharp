@@ -92,26 +92,21 @@ namespace practico1_MiguelAngelMaytaCruz
             if (contador > 0)
             {
                 lblResultado3.Text = "El total de consonantes es: " + contador;
-
             }
             else
             {
                 lblResultado3.Text = "No hay consonantes en la cadena";
             }
         }
-
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
-
         }
-
         private void btnClick4_Click(object sender, EventArgs e)
         {
             String cadena4 = txtCadena4.Text;
             String subcadena = txtSubcadena4.Text;
             if (cadena4.Length > 0)
             {
-
                 lblResultado4.Text = cadena4 + subcadena;
             }
             else
@@ -119,7 +114,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado4.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick5_Click(object sender, EventArgs e)
         {
             String cadena5 = txtCadena5.Text;
@@ -132,12 +126,10 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado5.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void button12_Click(object sender, EventArgs e)
         {
             string cadena6 = txtCadena6.Text;
             string[] palabras = cadena6.Split(' ');
-
             if (cadena6.Length > 0)
             {
                 for (int i = 0; i < palabras.Length; i++)
@@ -156,14 +148,11 @@ namespace practico1_MiguelAngelMaytaCruz
             {
                 lblResultado6.Text = "No hay suficientes caracteres.";
             }
-
         }
-
         private void btnClick7_Click(object sender, EventArgs e)
         {
             string cadena7 = txtCadena7.Text;
             string resultado = "";
-
             if (cadena7.Length > 0)
             {
                 foreach (char letra in cadena7)
@@ -180,7 +169,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado7.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             string cadena = txtCadena8.Text;
@@ -204,17 +192,12 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado8.Text = "No hay suficientes caracteres..";
             }
         }
-
         private void btnClick9_Click(object sender, EventArgs e)
         {
             string cadena9 = txtCadena9.Text;
             string[] palabras = cadena9.Split(' ');
             string resultado = "";
-
             bool palabraPrecedidaPorC = false;
-
-            
-
             if (cadena9.Length > 0)
             {
                 foreach (string palabra in palabras)
@@ -225,28 +208,21 @@ namespace practico1_MiguelAngelMaytaCruz
                     else
                     {
                         resultado += palabra + " ";
-
                     }
-
                     palabraPrecedidaPorC = palabra.Contains('c') || palabra.Contains('C');
                 }
                 lblResultado9.Text = resultado.Trim();
-
             }
             else
             {
                 lblResultado9.Text = "No hay suficientes caracteres.";
             }
-
         }
-
         private void btnClick10_Click(object sender, EventArgs e)
         {
             string cadena10 = txtCadena10.Text;
             string[] palabras = cadena10.Split(' ');
-
             int cantidadPalabras = palabras.Length;
-
             if (cadena10.Length > 0)
             {
             lblResultado10.Text = "Cantidad de palabras: " + cantidadPalabras;
@@ -255,9 +231,7 @@ namespace practico1_MiguelAngelMaytaCruz
             {
                 lblResultado10.Text = "No hay suficientes caracteres.";
             }
-            
         }
-
         private void btnClick11_Click(object sender, EventArgs e)
         {
             string cadena11 = txtCadena11.Text;
@@ -273,7 +247,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado11.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick12_Click(object sender, EventArgs e)
         {
             string cadena12 = txtCadena12.Text;
@@ -297,25 +270,27 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado12.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick13_Click(object sender, EventArgs e)
         {
             string cadena13 = txtCadena13.Text;
             string[] palabras = cadena13.Split(' ');
-
-            for (int i = 0; i < palabras.Length; i++)
+            if (cadena13.Length > 0)
             {
-                if (palabras[i].Length % 2 != 0 && palabras[i].Contains("c"))
+                for (int i = 0; i < palabras.Length; i++)
                 {
-                    palabras[i] = palabras[i].ToUpper();
+                    if (palabras[i].Length % 2 != 0 && palabras[i].Contains("c"))
+                    {
+                        palabras[i] = palabras[i].ToUpper();
+                    }
                 }
+                string resultado = string.Join(" ", palabras);
+                lblResultado13.Text = resultado;
             }
-
-            string resultado = string.Join(" ", palabras);
-            lblResultado13.Text = resultado;
-        
-      }
-
+            else
+            {
+                lblResultado13.Text = "No hay suficientes caracteres.";
+            }
+        }
         private void btnClick14_Click(object sender, EventArgs e)
         {
             String cadena14 = txtCadena14.Text;
@@ -330,7 +305,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado14.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick15_Click(object sender, EventArgs e)
         {
             string cadena15 = txtCadena15.Text;
@@ -346,7 +320,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado15.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick16_Click(object sender, EventArgs e)
         {
             string cadena16 = txtCadena16.Text;
@@ -362,7 +335,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado16.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick17_Click(object sender, EventArgs e)
         {
             string conjuntoA = txtConjuntoA.Text;
@@ -385,7 +357,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado17.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick18_Click(object sender, EventArgs e)
         {
             int numeroDecimal = int.Parse(txtCadena18.Text);
@@ -405,7 +376,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado18.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick19_Click(object sender, EventArgs e)
         {
             string cadena19 = txtCadena19.Text;
@@ -427,7 +397,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado19.Text = "No hay suficientes caracteres.";
             }
         }
-            
         private void btnClick20_Click(object sender, EventArgs e)
         {
             string cadena20 = txtCadena20.Text;
@@ -443,7 +412,6 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado20.Text = "No hay suficientes caracteres.";
             }
         }
-
         private void btnClick21_Click(object sender, EventArgs e)
         {
             string conjunto = txtCadena21.Text;
@@ -470,15 +438,5 @@ namespace practico1_MiguelAngelMaytaCruz
                 lblResultado21.Text = "No hay suficientes caracteres.";
             }
         }
-        /*
-if (cadena-.Length > 0)
-{
-
-}
-else
-{
-lblResultado-.Text = "No hay suficientes caracteres.";
-}
-*/
     }
 }
